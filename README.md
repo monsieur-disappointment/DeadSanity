@@ -1,3 +1,3 @@
 # DeadSanity
 
-fucking piece of shit
+fcking piece of sht
