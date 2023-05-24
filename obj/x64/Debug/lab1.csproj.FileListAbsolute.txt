@@ -1,0 +1,16 @@
+F:\VS\source\repos\Новая папка (5)\lab1\bin\x64\Debug\lab1.exe.config
+F:\VS\source\repos\Новая папка (5)\lab1\bin\x64\Debug\lab1.exe.manifest
+F:\VS\source\repos\Новая папка (5)\lab1\bin\x64\Debug\lab1.application
+F:\VS\source\repos\Новая папка (5)\lab1\bin\x64\Debug\lab1.exe
+F:\VS\source\repos\Новая папка (5)\lab1\bin\x64\Debug\lab1.pdb
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.csproj.AssemblyReference.cache
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.About.resources
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.MainWindow.resources
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.Properties.Resources.resources
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.csproj.GenerateResource.cache
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.csproj.CoreCompileInputs.cache
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.exe.manifest
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.application
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.exe
+F:\VS\source\repos\Новая папка (5)\lab1\obj\x64\Debug\lab1.pdb

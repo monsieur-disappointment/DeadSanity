@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj": {}
+  },
+  "projects": {
+    "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj",
+        "projectName": "lab1",
+        "projectPath": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj",
+        "packagesPath": "C:\\Users\\yu3\\.nuget\\packages\\",
+        "outputPath": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yu3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.421302, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
