@@ -306,7 +306,7 @@ namespace lab1
                             else if (tokens[i].Type == TokenType.FunctionError || tokens[i].Type == TokenType.Name)
                             {
                                 state = 1;
-                                outputText += "Ошибка в имени функции. Позиция: " + (tokens[i].Position + 1) + "\n";
+                                outputText += "Ошибка в имени функции. Позиция: " + (tokens[i].Position) + "\n";
                                 while (tokens[i + 1].Type != TokenType.EOF && tokens[i + 1].Type == TokenType.FunctionError || tokens[i + 1].Type == TokenType.Name)
                                     i++;
                                 successfully = false;
@@ -370,7 +370,7 @@ namespace lab1
                                     i++;
                                 successfully = false;
                             }
-                            else if (tokens[i].Type > TokenType.String && tokens[i].Type <= TokenType.EndFunction)
+                            else if (tokens[i].Type > TokenType.String && tokens[i].Type <= TokenType.EndFunction || tokens[i].Type < TokenType.String)
                             {
                                 state = 3;
                                 i--;
@@ -394,7 +394,13 @@ namespace lab1
                                 outputText += "Ошибка. Позиция: " + (tokens[i].Position + 1) + " Ожидался параметр\n";
                                 successfully = false;
                             }
-                            else if(tokens[i].Type > TokenType.Specification && tokens[i].Type <= TokenType.EndFunction)
+                            else if (tokens[i].Type == TokenType.Name)
+                            {
+                                state = 4;
+                                outputText += "Ошибка. Позиция: " + (tokens[i].Position + 1) + " Ожидался спецификатор\n";
+                                successfully = false;
+                            }
+                            else if(tokens[i].Type > TokenType.Specification && tokens[i].Type <= TokenType.EndFunction || tokens[i].Type < TokenType.Specification)
                             {
                                 state = 4;
                                 i--;
@@ -434,7 +440,7 @@ namespace lab1
                                     i++;
                                 successfully = false;
                             }
-                            else if (tokens[i].Type > TokenType.EndString && tokens[i].Type <= TokenType.EndFunction)
+                            else if (tokens[i].Type > TokenType.EndString && tokens[i].Type <= TokenType.EndFunction || tokens[i].Type < TokenType.EndString)
                             {
                                 state = 5;
                                 i--;
@@ -458,7 +464,7 @@ namespace lab1
                                 outputText += "Ошибка. Позиция: " + (tokens[i].Position + 1) + " Ожидался разделитель параметров: ,\n";
                                 successfully = false;
                             }
-                            else if (tokens[i].Type > TokenType.EndOptions && tokens[i].Type <= TokenType.EndFunction)
+                            else if (tokens[i].Type > TokenType.EndOptions && tokens[i].Type <= TokenType.EndFunction || tokens[i].Type < TokenType.EndOptions)
                             {
                                 state = 6;
                                 i--;
@@ -491,7 +497,7 @@ namespace lab1
                                 outputText += "Ошибка. Позиция: " + (tokens[i].Position + 1) + " Ожидался параметр\n";
                                 successfully = false;
                             }
-                            else if (tokens[i].Type > TokenType.Address && tokens[i].Type <= TokenType.EndFunction)
+                            else if (tokens[i].Type > TokenType.Address && tokens[i].Type <= TokenType.EndFunction || tokens[i].Type < TokenType.Address)
                             {
                                 state = 7;
                                 i--;
@@ -524,7 +530,7 @@ namespace lab1
                                 outputText += "Ошибка. Позиция: " + (tokens[i].Position + 1) + " Ожидался параметр\n";
                                 successfully = false;
                             }
-                            else if (tokens[i].Type > TokenType.Name && tokens[i].Type <= TokenType.EndFunction)
+                            else if (tokens[i].Type > TokenType.Name && tokens[i].Type <= TokenType.EndFunction || tokens[i].Type < TokenType.Name)
                             {
                                 state = 8;
                                 i--;

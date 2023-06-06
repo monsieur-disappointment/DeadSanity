@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {
+    "net6.0-windows10.0.17763": {
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "compile": {
@@ -82,12 +82,12 @@
       "Microsoft.Win32.Registry.AccessControl/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Microsoft.Win32.Registry.AccessControl.dll": {
+          "lib/net6.0/Microsoft.Win32.Registry.AccessControl.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Win32.Registry.AccessControl.dll": {
+          "lib/net6.0/Microsoft.Win32.Registry.AccessControl.dll": {
             "related": ".xml"
           }
         },
@@ -95,7 +95,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/Microsoft.Win32.Registry.AccessControl.dll": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.Registry.AccessControl.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -104,12 +104,12 @@
       "Microsoft.Win32.SystemEvents/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
@@ -117,7 +117,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -259,12 +259,12 @@
       "System.CodeDom/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.CodeDom.dll": {
+          "lib/net6.0/System.CodeDom.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.CodeDom.dll": {
+          "lib/net6.0/System.CodeDom.dll": {
             "related": ".xml"
           }
         },
@@ -275,12 +275,12 @@
       "System.ComponentModel.Composition/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.ComponentModel.Composition.dll": {
+          "lib/net6.0/System.ComponentModel.Composition.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.ComponentModel.Composition.dll": {
+          "lib/net6.0/System.ComponentModel.Composition.dll": {
             "related": ".xml"
           }
         },
@@ -295,12 +295,12 @@
           "System.Reflection.Context": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.ComponentModel.Composition.Registration.dll": {
+          "lib/net6.0/System.ComponentModel.Composition.Registration.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.ComponentModel.Composition.Registration.dll": {
+          "lib/net6.0/System.ComponentModel.Composition.Registration.dll": {
             "related": ".xml"
           }
         },
@@ -311,17 +311,16 @@
       "System.Configuration.ConfigurationManager/7.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "7.0.0",
           "System.Security.Cryptography.ProtectedData": "7.0.0",
           "System.Security.Permissions": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Configuration.ConfigurationManager.dll": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Configuration.ConfigurationManager.dll": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
@@ -344,12 +343,12 @@
           "System.Text.Encoding.CodePages": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Data.Odbc.dll": {
+          "lib/net6.0/System.Data.Odbc.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Data.Odbc.dll": {
+          "lib/net6.0/System.Data.Odbc.dll": {
             "related": ".xml"
           }
         },
@@ -357,35 +356,19 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/freebsd/lib/net7.0/System.Data.Odbc.dll": {
+          "runtimes/freebsd/lib/net6.0/System.Data.Odbc.dll": {
             "assetType": "runtime",
             "rid": "freebsd"
           },
-          "runtimes/illumos/lib/net7.0/System.Data.Odbc.dll": {
-            "assetType": "runtime",
-            "rid": "illumos"
-          },
-          "runtimes/ios/lib/net7.0/System.Data.Odbc.dll": {
-            "assetType": "runtime",
-            "rid": "ios"
-          },
-          "runtimes/linux/lib/net7.0/System.Data.Odbc.dll": {
+          "runtimes/linux/lib/net6.0/System.Data.Odbc.dll": {
             "assetType": "runtime",
             "rid": "linux"
           },
-          "runtimes/osx/lib/net7.0/System.Data.Odbc.dll": {
+          "runtimes/osx/lib/net6.0/System.Data.Odbc.dll": {
             "assetType": "runtime",
             "rid": "osx"
           },
-          "runtimes/solaris/lib/net7.0/System.Data.Odbc.dll": {
-            "assetType": "runtime",
-            "rid": "solaris"
-          },
-          "runtimes/tvos/lib/net7.0/System.Data.Odbc.dll": {
-            "assetType": "runtime",
-            "rid": "tvos"
-          },
-          "runtimes/win/lib/net7.0/System.Data.Odbc.dll": {
+          "runtimes/win/lib/net6.0/System.Data.Odbc.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -398,12 +381,12 @@
           "System.Diagnostics.PerformanceCounter": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Data.OleDb.dll": {
+          "lib/net6.0/System.Data.OleDb.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Data.OleDb.dll": {
+          "lib/net6.0/System.Data.OleDb.dll": {
             "related": ".xml"
           }
         },
@@ -411,7 +394,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Data.OleDb.dll": {
+          "runtimes/win/lib/net6.0/System.Data.OleDb.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -448,12 +431,12 @@
       "System.Diagnostics.EventLog/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Diagnostics.EventLog.dll": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Diagnostics.EventLog.dll": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
@@ -461,11 +444,11 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
             "assetType": "runtime",
             "rid": "win"
           },
-          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -477,12 +460,12 @@
           "System.Configuration.ConfigurationManager": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Diagnostics.PerformanceCounter.dll": {
+          "lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Diagnostics.PerformanceCounter.dll": {
+          "lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
             "related": ".xml"
           }
         },
@@ -490,7 +473,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Diagnostics.PerformanceCounter.dll": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -502,12 +485,12 @@
           "System.Security.Permissions": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.DirectoryServices.dll": {
+          "lib/net6.0/System.DirectoryServices.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.DirectoryServices.dll": {
+          "lib/net6.0/System.DirectoryServices.dll": {
             "related": ".xml"
           }
         },
@@ -515,7 +498,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.DirectoryServices.dll": {
+          "runtimes/win/lib/net6.0/System.DirectoryServices.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -529,12 +512,12 @@
           "System.DirectoryServices.Protocols": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.DirectoryServices.AccountManagement.dll": {
+          "lib/net6.0/System.DirectoryServices.AccountManagement.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.DirectoryServices.AccountManagement.dll": {
+          "lib/net6.0/System.DirectoryServices.AccountManagement.dll": {
             "related": ".xml"
           }
         },
@@ -542,7 +525,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.DirectoryServices.AccountManagement.dll": {
+          "runtimes/win/lib/net6.0/System.DirectoryServices.AccountManagement.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -551,12 +534,12 @@
       "System.DirectoryServices.Protocols/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.DirectoryServices.Protocols.dll": {
+          "lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.DirectoryServices.Protocols.dll": {
+          "lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "related": ".xml"
           }
         },
@@ -564,15 +547,15 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/linux/lib/net7.0/System.DirectoryServices.Protocols.dll": {
+          "runtimes/linux/lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "assetType": "runtime",
             "rid": "linux"
           },
-          "runtimes/osx/lib/net7.0/System.DirectoryServices.Protocols.dll": {
+          "runtimes/osx/lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "assetType": "runtime",
             "rid": "osx"
           },
-          "runtimes/win/lib/net7.0/System.DirectoryServices.Protocols.dll": {
+          "runtimes/win/lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -584,12 +567,12 @@
           "Microsoft.Win32.SystemEvents": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Drawing.Common.dll": {
+          "lib/net6.0/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Drawing.Common.dll": {
+          "lib/net6.0/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
@@ -597,7 +580,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -606,12 +589,12 @@
       "System.Formats.Asn1/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Formats.Asn1.dll": {
+          "lib/net6.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Formats.Asn1.dll": {
+          "lib/net6.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
         },
@@ -622,12 +605,12 @@
       "System.IO.Packaging/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.IO.Packaging.dll": {
+          "lib/net6.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.IO.Packaging.dll": {
+          "lib/net6.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
         },
@@ -641,12 +624,12 @@
           "runtime.native.System.IO.Ports": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.IO.Ports.dll": {
+          "lib/net6.0/System.IO.Ports.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.IO.Ports.dll": {
+          "lib/net6.0/System.IO.Ports.dll": {
             "related": ".xml"
           }
         },
@@ -654,11 +637,11 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/net7.0/System.IO.Ports.dll": {
+          "runtimes/unix/lib/net6.0/System.IO.Ports.dll": {
             "assetType": "runtime",
             "rid": "unix"
           },
-          "runtimes/win/lib/net7.0/System.IO.Ports.dll": {
+          "runtimes/win/lib/net6.0/System.IO.Ports.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -670,12 +653,12 @@
           "System.CodeDom": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Management.dll": {
+          "lib/net6.0/System.Management.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Management.dll": {
+          "lib/net6.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -683,7 +666,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Management.dll": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -761,12 +744,12 @@
       "System.Reflection.Context/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Reflection.Context.dll": {
+          "lib/net6.0/System.Reflection.Context.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Reflection.Context.dll": {
+          "lib/net6.0/System.Reflection.Context.dll": {
             "related": ".xml"
           }
         },
@@ -793,12 +776,12 @@
           "System.Configuration.ConfigurationManager": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Runtime.Caching.dll": {
+          "lib/net6.0/System.Runtime.Caching.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Runtime.Caching.dll": {
+          "lib/net6.0/System.Runtime.Caching.dll": {
             "related": ".xml"
           }
         },
@@ -806,10 +789,26 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Runtime.Caching.dll": {
+          "runtimes/win/lib/net6.0/System.Runtime.Caching.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Security.AccessControl/4.7.0": {
@@ -841,12 +840,12 @@
           "System.Formats.Asn1": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
@@ -854,7 +853,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -863,12 +862,12 @@
       "System.Security.Cryptography.ProtectedData/7.0.1": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
             "related": ".xml"
           }
         },
@@ -882,12 +881,12 @@
           "System.Security.Cryptography.Pkcs": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Security.Cryptography.Xml.dll": {
+          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Security.Cryptography.Xml.dll": {
+          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
             "related": ".xml"
           }
         },
@@ -901,12 +900,12 @@
           "System.Windows.Extensions": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Security.Permissions.dll": {
+          "lib/net6.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Security.Permissions.dll": {
+          "lib/net6.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
@@ -1018,12 +1017,12 @@
       "System.ServiceModel.Syndication/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.ServiceModel.Syndication.dll": {
+          "lib/net6.0/System.ServiceModel.Syndication.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.ServiceModel.Syndication.dll": {
+          "lib/net6.0/System.ServiceModel.Syndication.dll": {
             "related": ".xml"
           }
         },
@@ -1037,12 +1036,12 @@
           "System.Diagnostics.EventLog": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.ServiceProcess.ServiceController.dll": {
+          "lib/net6.0/System.ServiceProcess.ServiceController.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.ServiceProcess.ServiceController.dll": {
+          "lib/net6.0/System.ServiceProcess.ServiceController.dll": {
             "related": ".xml"
           }
         },
@@ -1050,7 +1049,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.ServiceProcess.ServiceController.dll": {
+          "runtimes/win/lib/net6.0/System.ServiceProcess.ServiceController.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1059,12 +1058,12 @@
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Speech.dll": {
+          "lib/net6.0/System.Speech.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Speech.dll": {
+          "lib/net6.0/System.Speech.dll": {
             "related": ".xml"
           }
         },
@@ -1072,7 +1071,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Speech.dll": {
+          "runtimes/win/lib/net6.0/System.Speech.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1080,13 +1079,16 @@
       },
       "System.Text.Encoding.CodePages/7.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/net7.0/System.Text.Encoding.CodePages.dll": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Text.Encoding.CodePages.dll": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
@@ -1094,7 +1096,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll": {
+          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1103,12 +1105,12 @@
       "System.Threading.AccessControl/7.0.1": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Threading.AccessControl.dll": {
+          "lib/net6.0/System.Threading.AccessControl.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Threading.AccessControl.dll": {
+          "lib/net6.0/System.Threading.AccessControl.dll": {
             "related": ".xml"
           }
         },
@@ -1116,7 +1118,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Threading.AccessControl.dll": {
+          "runtimes/win/lib/net6.0/System.Threading.AccessControl.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1182,17 +1184,17 @@
           "System.Drawing.Common": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Windows.Extensions.dll": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Windows.Extensions.dll": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Windows.Extensions.dll": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -2427,6 +2429,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Security.AccessControl/4.7.0": {
       "sha512": "JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
       "type": "package",
@@ -3110,7 +3137,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": [
+    "net6.0-windows10.0.17763": [
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.4.421302",
       "Microsoft.Windows.Compatibility >= 7.0.1",
@@ -3123,26 +3150,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj",
+      "projectUniqueName": "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\lab1.csproj",
       "projectName": "lab1",
-      "projectPath": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj",
+      "projectPath": "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\lab1.csproj",
       "packagesPath": "C:\\Users\\yu3\\.nuget\\packages\\",
-      "outputPath": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\obj\\",
+      "outputPath": "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yu3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0-windows"
+        "net6.0-windows10.0.17763.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
+        "net6.0-windows10.0.17763": {
+          "targetAlias": "net6.0-windows10.0.17763.0",
           "projectReferences": {}
         }
       },
@@ -3153,8 +3180,8 @@
       }
     },
     "frameworks": {
-      "net7.0-windows7.0": {
-        "targetAlias": "net7.0-windows",
+      "net6.0-windows10.0.17763": {
+        "targetAlias": "net6.0-windows10.0.17763.0",
         "dependencies": {
           "Microsoft.CSharp": {
             "target": "Package",
@@ -3185,8 +3212,17 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.17763.28, 10.0.17763.28]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
             "privateAssets": "all"
           },
           "Microsoft.WindowsDesktop.App": {

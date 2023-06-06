@@ -1,0 +1,9 @@
+X:\DeadSanity\lab1.pdb
+X:\DeadSanity\lab1.dll.config
+X:\DeadSanity\D3DCompiler_47_cor3.dll
+X:\DeadSanity\PenImc_cor3.dll
+X:\DeadSanity\PresentationNative_cor3.dll
+X:\DeadSanity\vcruntime140_cor3.dll
+X:\DeadSanity\wpfgfx_cor3.dll
+X:\DeadSanity\sni.dll
+X:\DeadSanity\lab1.exe

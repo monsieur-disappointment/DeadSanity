@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1HvP6iEwWEvnRxp3YmBXdHRAXMzzFmng6xEyec3LeDO7Okec1eltr1EnGrBqi6P/nXkdtuGTsq/HimV7ykf/A==",
+  "dgSpecHash": "mgZedK6iQtzVApGiOk6NmfYbh9Jxf0v8WMzKjYeMkxll1RqWhHLYGZ6qDkkt6uaVOzO8eoe4W2vlJnWFB+vaXQ==",
   "success": true,
-  "projectFilePath": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj",
+  "projectFilePath": "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\lab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yu3\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -46,6 +46,7 @@
     "C:\\Users\\yu3\\.nuget\\packages\\system.reflection.context\\7.0.0\\system.reflection.context.7.0.0.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\system.reflection.dispatchproxy\\4.7.1\\system.reflection.dispatchproxy.4.7.1.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\system.runtime.caching\\7.0.0\\system.runtime.caching.7.0.0.nupkg.sha512",
+    "C:\\Users\\yu3\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\system.security.cryptography.pkcs\\7.0.1\\system.security.cryptography.pkcs.7.0.1.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.1\\system.security.cryptography.protecteddata.7.0.1.nupkg.sha512",
@@ -64,9 +65,10 @@
     "C:\\Users\\yu3\\.nuget\\packages\\system.threading.accesscontrol\\7.0.1\\system.threading.accesscontrol.7.0.1.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\system.web.services.description\\4.9.0\\system.web.services.description.4.9.0.nupkg.sha512",
     "C:\\Users\\yu3\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
-    "C:\\Users\\yu3\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.5\\microsoft.netcore.app.runtime.win-x86.7.0.5.nupkg.sha512",
-    "C:\\Users\\yu3\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.5.nupkg.sha512",
-    "C:\\Users\\yu3\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x86.7.0.5.nupkg.sha512"
+    "C:\\Users\\yu3\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.16\\microsoft.netcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\yu3\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\yu3\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\yu3\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.28\\microsoft.windows.sdk.net.ref.10.0.17763.28.nupkg.sha512"
   ],
   "logs": []
 }

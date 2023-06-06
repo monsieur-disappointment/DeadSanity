@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj": {}
+    "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\lab1.csproj": {}
   },
   "projects": {
-    "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj": {
+    "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj",
+        "projectUniqueName": "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\lab1.csproj",
+        "projectPath": "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\lab1.csproj",
         "packagesPath": "C:\\Users\\yu3\\.nuget\\packages\\",
-        "outputPath": "F:\\VS\\source\\repos\\Новая папка (5)\\lab1\\obj\\",
+        "outputPath": "F:\\VS\\source\\repos\\Новая папка (5)\\DS project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yu3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-windows"
+          "net6.0-windows10.0.17763.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
+          "net6.0-windows10.0.17763": {
+            "targetAlias": "net6.0-windows10.0.17763.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
+        "net6.0-windows10.0.17763": {
+          "targetAlias": "net6.0-windows10.0.17763.0",
           "dependencies": {
             "Microsoft.CSharp": {
               "target": "Package",
@@ -69,8 +69,17 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.17763.28, 10.0.17763.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
               "privateAssets": "all"
             },
             "Microsoft.WindowsDesktop.App": {
