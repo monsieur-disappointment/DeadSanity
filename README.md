@@ -5,7 +5,7 @@ This is a scaner and syntaxuis analyzer for scanf() function from C/C++.
 .NET framework 6.0.
 
 # Release
-This branch have a release files portable version of programm.
+This branch have a release files of portable version of programm.
 
 # Project
 This branch have a project files for VisualStudio of programm
